@@ -1,15 +1,15 @@
 Download Buster Image 
-touch ssh in /boot of image
+touch ssh in /boot of image  
 vi /boot/wpa_supplicant.conf 
-->
-country=DE # Your 2-digit country code
-ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
-network={
-    ssid="YOUR_NETWORK_NAME"
-    psk="YOUR_PASSWORD"
-    key_mgmt=WPA-PSK
-}
-
+->  
+country=DE # Your 2-digit country code  
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev  
+network={  
+    ssid="YOUR_NETWORK_NAME"  
+    psk="YOUR_PASSWORD"  
+    key_mgmt=WPA-PSK  
+}  
+  
 
 Setup the RPi:  
 sudo apt-get install build-essential python3-dev python-smbus i2c-tools python3-pip --yes
