@@ -1,6 +1,6 @@
-Download Buster Image 
-touch ssh in /boot of image  
-vi /boot/wpa_supplicant.conf 
+Download Buster Image  
+touch ssh in /boot of image    
+vi /boot/wpa_supplicant.conf  
 ->  
 country=DE # Your 2-digit country code  
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev  
