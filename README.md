@@ -27,4 +27,6 @@ SDA	GPIO 2 ->  RPi SDA Pin 3
 VCC / V	3,3V -> RPi Pin 1  
 GND	GND (Pin 6)  
 
+MPU-6050 connected to I2C bus.  
+
 TBC
