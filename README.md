@@ -12,7 +12,7 @@ network={
   
 
 Setup the RPi:  
-sudo apt-get install build-essential python3-dev python-smbus i2c-tools python3-pip --yes
+sudo apt-get install build-essential python3-dev python3-smbus i2c-tools python3-pip --yes
 
 Activate I2C in raspi-config  
 Check it: i2cdetect -y 1  
